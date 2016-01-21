@@ -29,6 +29,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # added devise to use for user login -pd
 gem 'devise', '~> 3.5.4'
 
+# added paperclip for image attachments -pd
+gem 'paperclip', '~> 4.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
