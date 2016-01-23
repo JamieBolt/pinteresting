@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+gem 'jquery-turbolinks'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 
@@ -32,6 +34,8 @@ gem 'devise', '~> 3.5.4'
 # added paperclip for image attachments -pd
 gem 'paperclip', '~> 4.3'
 gem 'aws-sdk', '< 2.0'
+
+gem 'masonry-rails', '~> 0.2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
