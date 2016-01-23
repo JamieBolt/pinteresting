@@ -5,4 +5,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
    has_many :pins
+
+#note devise automatically validates email and pass.
+#since we added name ourselves, have to add our own validator
+   validates :name, presence: true
 end
